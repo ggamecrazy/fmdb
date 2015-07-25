@@ -61,6 +61,7 @@
 		F7A071291B63439D00367778 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9E4EB813B31188005F9210 /* FMDatabasePool.m */; };
 		F7A0712A1B6343B000367778 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A071101B6340ED00367778 /* Foundation.framework */; };
 		F7A0712C1B63449A00367778 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A0712B1B63449A00367778 /* libsqlite3.0.tbd */; };
+		F7A0712D1B63475B00367778 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7A071211B63438A00367778 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -544,6 +545,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7A0712D1B63475B00367778 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
