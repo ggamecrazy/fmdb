@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F7A071061B6340D200367778"
-               BuildableName = "libFMDB-WATCHOS.a"
+               BlueprintIdentifier = "F7A0711C1B63438900367778"
+               BuildableName = "FMDB-WATCHOS.framework"
                BlueprintName = "FMDB-WATCHOS"
                ReferencedContainer = "container:fmdb.xcodeproj">
             </BuildableReference>
@@ -45,8 +45,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F7A071061B6340D200367778"
-            BuildableName = "libFMDB-WATCHOS.a"
+            BlueprintIdentifier = "F7A0711C1B63438900367778"
+            BuildableName = "FMDB-WATCHOS.framework"
             BlueprintName = "FMDB-WATCHOS"
             ReferencedContainer = "container:fmdb.xcodeproj">
          </BuildableReference>
@@ -63,8 +63,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F7A071061B6340D200367778"
-            BuildableName = "libFMDB-WATCHOS.a"
+            BlueprintIdentifier = "F7A0711C1B63438900367778"
+            BuildableName = "FMDB-WATCHOS.framework"
             BlueprintName = "FMDB-WATCHOS"
             ReferencedContainer = "container:fmdb.xcodeproj">
          </BuildableReference>

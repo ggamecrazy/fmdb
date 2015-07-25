@@ -53,12 +53,13 @@
 		EE42910912B42FD00088BD94 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = CCC24EBF0A13E34D00A6D3E3 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE42910A12B42FD20088BD94 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC24EC00A13E34D00A6D3E3 /* FMResultSet.m */; };
 		EE42910D12B42FFA0088BD94 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EE42910C12B42FFA0088BD94 /* libsqlite3.dylib */; };
-		F7A071121B63410D00367778 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC24EC00A13E34D00A6D3E3 /* FMResultSet.m */; };
-		F7A071131B63411400367778 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC24EBB0A13E34D00A6D3E3 /* FMDatabase.m */; };
-		F7A071141B63412200367778 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9E4EB813B31188005F9210 /* FMDatabasePool.m */; };
-		F7A071151B63412D00367778 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CC47A00E148581E9002CCDAB /* FMDatabaseQueue.m */; };
-		F7A071161B63414000367778 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CC50F2CB0DF9183600E4AAAE /* FMDatabaseAdditions.m */; };
-		F7A071171B63416100367778 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6290CBB6188FE836009790F8 /* Foundation.framework */; };
+		F7A071201B63438A00367778 /* FMDB-WATCHOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A0711F1B63438A00367778 /* FMDB-WATCHOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7A071251B63439D00367778 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC24EBB0A13E34D00A6D3E3 /* FMDatabase.m */; };
+		F7A071261B63439D00367778 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC24EC00A13E34D00A6D3E3 /* FMResultSet.m */; };
+		F7A071271B63439D00367778 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CC47A00E148581E9002CCDAB /* FMDatabaseQueue.m */; };
+		F7A071281B63439D00367778 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CC50F2CB0DF9183600E4AAAE /* FMDatabaseAdditions.m */; };
+		F7A071291B63439D00367778 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9E4EB813B31188005F9210 /* FMDatabasePool.m */; };
+		F7A0712A1B6343B000367778 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A071101B6340ED00367778 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,15 +91,6 @@
 				8DD76F9F0486AA7600D96B5E /* fmdb.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
-		};
-		F7A071051B6340D200367778 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -153,8 +145,10 @@
 		D4A740A11A7046330058EBEE /* FMDatabaseFTS3WithModuleNameTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseFTS3WithModuleNameTests.m; sourceTree = "<group>"; };
 		EE4290EF12B42F870088BD94 /* libFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFMDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE42910C12B42FFA0088BD94 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
-		F7A071071B6340D200367778 /* libFMDB-WATCHOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libFMDB-WATCHOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A071101B6340ED00367778 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F7A0711D1B63438900367778 /* FMDB-WATCHOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "FMDB-WATCHOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A0711F1B63438A00367778 /* FMDB-WATCHOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FMDB-WATCHOS.h"; sourceTree = "<group>"; };
+		F7A071211B63438A00367778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,11 +188,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7A071041B6340D200367778 /* Frameworks */ = {
+		F7A071191B63438900367778 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7A071171B63416100367778 /* Foundation.framework in Frameworks */,
+				F7A0712A1B6343B000367778 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +210,7 @@
 				C6859EA2029092E104C91782 /* Documentation */,
 				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
 				BF5D041A18416BB2008C5AA9 /* Tests */,
+				F7A0711E1B63438A00367778 /* FMDB-WATCHOS */,
 				BF5D041718416BB2008C5AA9 /* Frameworks */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
 				EE42910C12B42FFA0088BD94 /* libsqlite3.dylib */,
@@ -250,7 +245,7 @@
 				EE4290EF12B42F870088BD94 /* libFMDB.a */,
 				BF5D041618416BB2008C5AA9 /* Tests.xctest */,
 				6290CBB5188FE836009790F8 /* libFMDB-IOS.a */,
-				F7A071071B6340D200367778 /* libFMDB-WATCHOS.a */,
+				F7A0711D1B63438900367778 /* FMDB-WATCHOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -368,6 +363,15 @@
 			name = "optional extras";
 			sourceTree = "<group>";
 		};
+		F7A0711E1B63438A00367778 /* FMDB-WATCHOS */ = {
+			isa = PBXGroup;
+			children = (
+				F7A0711F1B63438A00367778 /* FMDB-WATCHOS.h */,
+				F7A071211B63438A00367778 /* Info.plist */,
+			);
+			path = "FMDB-WATCHOS";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -381,6 +385,14 @@
 				8314AF3318CD73D600EC0E25 /* FMDB.h in Headers */,
 				CC9E4EBA13B31188005F9210 /* FMDatabasePool.h in Headers */,
 				CC47A00F148581E9002CCDAB /* FMDatabaseQueue.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A0711A1B63438900367778 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A071201B63438A00367778 /* FMDB-WATCHOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,13 +469,14 @@
 			productReference = EE4290EF12B42F870088BD94 /* libFMDB.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		F7A071061B6340D200367778 /* FMDB-WATCHOS */ = {
+		F7A0711C1B63438900367778 /* FMDB-WATCHOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7A0710F1B6340D200367778 /* Build configuration list for PBXNativeTarget "FMDB-WATCHOS" */;
+			buildConfigurationList = F7A071221B63438A00367778 /* Build configuration list for PBXNativeTarget "FMDB-WATCHOS" */;
 			buildPhases = (
-				F7A071031B6340D200367778 /* Sources */,
-				F7A071041B6340D200367778 /* Frameworks */,
-				F7A071051B6340D200367778 /* CopyFiles */,
+				F7A071181B63438900367778 /* Sources */,
+				F7A071191B63438900367778 /* Frameworks */,
+				F7A0711A1B63438900367778 /* Headers */,
+				F7A0711B1B63438900367778 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -471,8 +484,8 @@
 			);
 			name = "FMDB-WATCHOS";
 			productName = "FMDB-WATCHOS";
-			productReference = F7A071071B6340D200367778 /* libFMDB-WATCHOS.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = F7A0711D1B63438900367778 /* FMDB-WATCHOS.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -485,7 +498,7 @@
 					BF5D041518416BB2008C5AA9 = {
 						TestTargetID = EE4290EE12B42F870088BD94;
 					};
-					F7A071061B6340D200367778 = {
+					F7A0711C1B63438900367778 = {
 						CreatedOnToolsVersion = 7.0;
 					};
 				};
@@ -509,7 +522,7 @@
 				EE4290EE12B42F870088BD94 /* FMDB */,
 				BF5D041518416BB2008C5AA9 /* Tests */,
 				6290CBB4188FE836009790F8 /* FMDB-IOS */,
-				F7A071061B6340D200367778 /* FMDB-WATCHOS */,
+				F7A0711C1B63438900367778 /* FMDB-WATCHOS */,
 			);
 		};
 /* End PBXProject section */
@@ -520,6 +533,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF5D041F18416BB2008C5AA9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A0711B1B63438900367778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,15 +604,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7A071031B6340D200367778 /* Sources */ = {
+		F7A071181B63438900367778 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7A071161B63414000367778 /* FMDatabaseAdditions.m in Sources */,
-				F7A071151B63412D00367778 /* FMDatabaseQueue.m in Sources */,
-				F7A071141B63412200367778 /* FMDatabasePool.m in Sources */,
-				F7A071131B63411400367778 /* FMDatabase.m in Sources */,
-				F7A071121B63410D00367778 /* FMResultSet.m in Sources */,
+				F7A071251B63439D00367778 /* FMDatabase.m in Sources */,
+				F7A071261B63439D00367778 /* FMResultSet.m in Sources */,
+				F7A071271B63439D00367778 /* FMDatabaseQueue.m in Sources */,
+				F7A071281B63439D00367778 /* FMDatabaseAdditions.m in Sources */,
+				F7A071291B63439D00367778 /* FMDatabasePool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -862,7 +882,7 @@
 			};
 			name = Release;
 		};
-		F7A0710D1B6340D200367778 /* Debug */ = {
+		F7A071231B63438A00367778 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -873,7 +893,12 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -885,16 +910,22 @@
 				);
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "FMDB-WATCHOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FMDB.FMDB-WATCHOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
-		F7A0710E1B6340D200367778 /* Release */ = {
+		F7A071241B63438A00367778 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -905,19 +936,30 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "FMDB-WATCHOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FMDB.FMDB-WATCHOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
@@ -970,11 +1012,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7A0710F1B6340D200367778 /* Build configuration list for PBXNativeTarget "FMDB-WATCHOS" */ = {
+		F7A071221B63438A00367778 /* Build configuration list for PBXNativeTarget "FMDB-WATCHOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7A0710D1B6340D200367778 /* Debug */,
-				F7A0710E1B6340D200367778 /* Release */,
+				F7A071231B63438A00367778 /* Debug */,
+				F7A071241B63438A00367778 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
